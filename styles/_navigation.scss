@@ -1,0 +1,40 @@
+.main-head {
+  min-height: 10vh;
+  padding: 2rem 0;
+}
+
+nav {
+  @include flex(row, space-between, center);
+
+  .nav-left {
+    @include flex(row, space-between, center);
+
+    .logo {
+      flex: 2;
+      padding-right: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    ul {
+      flex: 7;
+      @include flex(row, space-between, center);
+    }
+
+    li {
+      padding: 0 1rem;
+    }
+  }
+
+  .nav-right {
+    ul {
+      @include flex(row, space-between, center);
+    }
+
+    li {
+      padding: 0 1.6rem;
+    }
+  }
+}

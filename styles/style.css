@@ -4,4 +4,148 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+h4,
+h5 {
+  font-size: 2.5rem;
+}
+
+a,
+button,
+li,
+input,
+textarea {
+  font-size: 1.4rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.2rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.main-head {
+  min-height: 10vh;
+  padding: 2rem 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-left .logo {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding-right: 2rem;
+}
+
+nav .nav-left .logo img {
+  width: 100%;
+}
+
+nav .nav-left ul {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-left li {
+  padding: 0 1rem;
+}
+
+nav .nav-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-right li {
+  padding: 0 1.6rem;
+}
 /*# sourceMappingURL=style.css.map */

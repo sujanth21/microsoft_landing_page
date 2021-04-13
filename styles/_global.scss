@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$header1: 2.5rem;
+$header2: 4.5rem;
+$header3: 3.2rem;
+$header4: 2.5rem;
+$text: 1.4rem;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: $header1;
+}
+
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+
+h4,
+h5 {
+  font-size: $header4;
+}
+
+a,
+button,
+li,
+input,
+textarea {
+  font-size: $text;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.2rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
