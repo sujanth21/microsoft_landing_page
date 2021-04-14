@@ -36,9 +36,12 @@ a,
 button,
 li,
 input,
-textarea,
-p {
+textarea {
   font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 a:hover {
@@ -206,7 +209,6 @@ nav .nav-right li {
 .hero .xbox-content p,
 .xbox .hero-content p,
 .xbox .xbox-content p {
-  font-size: 1.6rem;
   padding-bottom: 3rem;
 }
 
@@ -229,7 +231,7 @@ nav .nav-right li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
   color: #fff;
 }
 
@@ -289,7 +291,6 @@ nav .nav-right li {
 }
 
 .icons .icons-set li p {
-  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -313,11 +314,42 @@ nav .nav-right li {
 }
 
 .card p {
-  font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 
 .card a {
   color: #0067b8;
+}
+
+.business-cards {
+  margin-bottom: 4rem;
+}
+
+.business-cards h4 {
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.covid {
+  min-height: 15vh;
+  background: #e6e6e6;
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.covid a {
+  padding-top: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

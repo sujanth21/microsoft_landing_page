@@ -1,0 +1,11 @@
+.covid {
+  min-height: 15vh;
+  background: #e6e6e6;
+  margin-bottom: 6rem;
+
+  @include flex(column, center, center);
+
+  a {
+    padding-top: 1rem;
+  }
+}
