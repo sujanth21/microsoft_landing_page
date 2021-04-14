@@ -28,6 +28,8 @@ h2 {
 
 h3 {
   font-size: $header3;
+  font-weight: 500;
+  padding-bottom: 2rem;
 }
 
 h4,
@@ -39,7 +41,8 @@ a,
 button,
 li,
 input,
-textarea {
+textarea,
+p {
   font-size: $text;
 }
 
@@ -61,6 +64,30 @@ ul {
 a {
   text-decoration: none;
   color: #212121;
+}
+
+// Buttons
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.3rem;
+}
+
+.btn-black {
+  background: #000;
+  color: #fff;
+}
+
+.btn-link {
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 @mixin flex($direction, $justify, $align) {

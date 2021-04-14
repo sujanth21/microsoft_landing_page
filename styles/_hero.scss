@@ -1,0 +1,23 @@
+.hero {
+  min-height: 65vh;
+  background: url("../img/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include flex(column, center, flex-start);
+
+  .hero-content {
+    width: 40%;
+    padding-left: 10rem;
+
+    p {
+      font-size: 1.6rem;
+      padding-bottom: 3rem;
+    }
+
+    a {
+      padding-left: 3.5rem;
+    }
+  }
+}

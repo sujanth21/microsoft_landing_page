@@ -23,6 +23,8 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
 }
 
 h4,
@@ -34,7 +36,8 @@ a,
 button,
 li,
 input,
-textarea {
+textarea,
+p {
   font-size: 1.4rem;
 }
 
@@ -58,9 +61,32 @@ a {
   color: #212121;
 }
 
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.3rem;
+}
+
+.btn-black {
+  background: #000;
+  color: #fff;
+}
+
+.btn-link {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .main-head {
-  min-height: 10vh;
-  padding: 2rem 0;
+  min-height: 8vh;
+  padding-top: 2rem;
 }
 
 nav {
@@ -147,5 +173,40 @@ nav .nav-right ul {
 
 nav .nav-right li {
   padding: 0 1.6rem;
+}
+
+.hero {
+  min-height: 65vh;
+  background: url("../img/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.hero .hero-content {
+  width: 40%;
+  padding-left: 10rem;
+}
+
+.hero .hero-content p {
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+}
+
+.hero .hero-content a {
+  padding-left: 3.5rem;
 }
 /*# sourceMappingURL=style.css.map */
