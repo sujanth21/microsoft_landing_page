@@ -66,6 +66,7 @@ a {
   border: none;
   background: #fff;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -175,12 +176,9 @@ nav .nav-right li {
   padding: 0 1.6rem;
 }
 
-.hero {
+.hero,
+.xbox {
   min-height: 65vh;
-  background: url("../img/hero.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,18 +194,47 @@ nav .nav-right li {
           align-items: flex-start;
 }
 
-.hero .hero-content {
+.hero .hero-content,
+.hero .xbox-content,
+.xbox .hero-content,
+.xbox .xbox-content {
   width: 40%;
   padding-left: 10rem;
 }
 
-.hero .hero-content p {
+.hero .hero-content p,
+.hero .xbox-content p,
+.xbox .hero-content p,
+.xbox .xbox-content p {
   font-size: 1.6rem;
   padding-bottom: 3rem;
 }
 
-.hero .hero-content a {
+.hero .hero-content a,
+.hero .xbox-content a,
+.xbox .hero-content a,
+.xbox .xbox-content a {
   padding-left: 3.5rem;
+}
+
+.hero {
+  background: url("../img/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.xbox {
+  background: url("../img/xbox_hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10rem;
+  color: #fff;
+}
+
+.xbox a {
+  color: #fff;
 }
 
 .icons {
@@ -272,7 +299,7 @@ nav .nav-right li {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 
 .card img {
