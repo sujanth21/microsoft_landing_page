@@ -180,7 +180,8 @@ nav .nav-right li {
 }
 
 .hero,
-.xbox {
+.xbox,
+.passion {
   min-height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,23 +200,38 @@ nav .nav-right li {
 
 .hero .hero-content,
 .hero .xbox-content,
+.hero .passion-content,
 .xbox .hero-content,
-.xbox .xbox-content {
+.xbox .xbox-content,
+.xbox .passion-content,
+.passion .hero-content,
+.passion .xbox-content,
+.passion .passion-content {
   width: 40%;
   padding-left: 10rem;
 }
 
 .hero .hero-content p,
 .hero .xbox-content p,
+.hero .passion-content p,
 .xbox .hero-content p,
-.xbox .xbox-content p {
+.xbox .xbox-content p,
+.xbox .passion-content p,
+.passion .hero-content p,
+.passion .xbox-content p,
+.passion .passion-content p {
   padding-bottom: 3rem;
 }
 
 .hero .hero-content a,
 .hero .xbox-content a,
+.hero .passion-content a,
 .xbox .hero-content a,
-.xbox .xbox-content a {
+.xbox .xbox-content a,
+.xbox .passion-content a,
+.passion .hero-content a,
+.passion .xbox-content a,
+.passion .passion-content a {
   padding-left: 3.5rem;
 }
 
@@ -231,12 +247,20 @@ nav .nav-right li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 4rem;
+  margin: 6rem 0 4rem 0;
   color: #fff;
 }
 
 .xbox a {
   color: #fff;
+}
+
+.passion {
+  background: url("../img/ride_hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
 }
 
 .icons {
@@ -300,7 +324,7 @@ nav .nav-right li {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .card img {
@@ -322,7 +346,7 @@ nav .nav-right li {
 }
 
 .business-cards {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .business-cards h4 {
@@ -333,7 +357,7 @@ nav .nav-right li {
 .covid {
   min-height: 15vh;
   background: #e6e6e6;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,5 +375,38 @@ nav .nav-right li {
 
 .covid a {
   padding-top: 1rem;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+}
+
+.social p,
+.social ul,
+.social li,
+.social a {
+  display: inline-block;
+  padding-right: 0.8rem;
+}
+
+.social p {
+  padding-right: 2rem;
+}
+
+.social a:hover {
+  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */

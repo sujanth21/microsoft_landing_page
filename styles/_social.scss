@@ -1,0 +1,19 @@
+.social {
+  @include flex(row, flex-start, center);
+  margin-bottom: 4rem;
+
+  p,
+  ul,
+  li,
+  a {
+    display: inline-block;
+    padding-right: 0.8rem;
+  }
+  p {
+    padding-right: 2rem;
+  }
+
+  a:hover {
+    opacity: 0.9;
+  }
+}
