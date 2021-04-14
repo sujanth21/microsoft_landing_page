@@ -1,0 +1,28 @@
+.icons {
+  min-height: 20vh;
+
+  .icons-set {
+    width: 70%;
+    margin: 0 auto;
+    ul {
+      @include flex(row, center, center);
+    }
+
+    li {
+      @include flex(column, center, flex-start);
+      padding: 5rem;
+      flex: 1;
+      text-align: center;
+      padding: 6rem 3rem;
+
+      a:hover {
+        text-decoration-thickness: 0.1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
