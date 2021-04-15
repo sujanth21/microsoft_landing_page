@@ -514,4 +514,10 @@ footer a {
 .copy-right i {
   padding-right: 1rem;
 }
+
+@media screen and (max-width: 1400px) {
+  nav .icon-text {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
