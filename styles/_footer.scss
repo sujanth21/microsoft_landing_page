@@ -1,0 +1,63 @@
+footer {
+  min-height: 40vh;
+  background: #e6e6e6;
+
+  .main-links {
+    width: 85%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  h5 {
+    color: #616161;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    line-height: 3rem;
+  }
+  a {
+    font-size: 1.2rem;
+    color: #616161;
+  }
+}
+
+.box {
+  margin: 4rem 0;
+}
+
+.copy-right {
+  width: 85%;
+  margin: auto;
+  @include flex(row, flex-start, center);
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+
+  .left-panel {
+    flex: 1;
+
+    .world-icon {
+      @include flex(row, flex-start, center);
+      color: #616161;
+    }
+  }
+
+  .right-panel {
+    ul {
+      @include flex(row, flex-start, center);
+    }
+
+    li {
+      padding-right: 2rem;
+      color: #616161;
+      font-size: 1.2rem;
+    }
+  }
+
+  i {
+    padding-right: 1rem;
+  }
+}

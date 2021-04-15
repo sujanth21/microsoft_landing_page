@@ -8,6 +8,7 @@ $header1: 2.5rem;
 $header2: 4.5rem;
 $header3: 3.2rem;
 $header4: 2.5rem;
+$header5: 1.5rem;
 $text: 1.4rem;
 $para: 1.6rem;
 
@@ -33,9 +34,12 @@ h3 {
   padding-bottom: 2rem;
 }
 
-h4,
-h5 {
+h4 {
   font-size: $header4;
+}
+
+h5 {
+  font-size: $header5;
 }
 
 a,

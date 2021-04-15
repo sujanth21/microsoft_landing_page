@@ -27,9 +27,12 @@ h3 {
   padding-bottom: 2rem;
 }
 
-h4,
-h5 {
+h4 {
   font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 a,
@@ -408,5 +411,107 @@ nav .nav-right li {
 
 .social a:hover {
   opacity: 0.9;
+}
+
+footer {
+  min-height: 40vh;
+  background: #e6e6e6;
+}
+
+footer .main-links {
+  width: 85%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+footer h5 {
+  color: #616161;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+footer li {
+  line-height: 3rem;
+}
+
+footer a {
+  font-size: 1.2rem;
+  color: #616161;
+}
+
+.box {
+  margin: 4rem 0;
+}
+
+.copy-right {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.copy-right .left-panel {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.copy-right .left-panel .world-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #616161;
+}
+
+.copy-right .right-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copy-right .right-panel li {
+  padding-right: 2rem;
+  color: #616161;
+  font-size: 1.2rem;
+}
+
+.copy-right i {
+  padding-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
