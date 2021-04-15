@@ -9,3 +9,5 @@ This project developed to practise HTML,CSS skills
 3. SASS
 
 Project Demo: https://cranky-varahamihira-3b0775.netlify.app/
+
+![screenshot](https://github.com/sujanth21/microsoft_landing_page/blob/master/img/landing_ms.PNG)
